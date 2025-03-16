@@ -30,7 +30,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests
+        pip install -r requirements.txt
 
     - name: Run Python script
       run: python main.py
@@ -43,11 +43,10 @@ jobs:
         git add -A
         echo "Checking for differences..."
         if ! git diff --staged --quiet; then
-        echo "Changes detected, committing..."
+          echo "Changes detected, committing..."
           git commit -m "Auto-update live files"
           git push
         else
-        echo "No changes detected."
-        fi
+          echo "No changes detected."
       env:
         TZ: Asia/Shanghai
