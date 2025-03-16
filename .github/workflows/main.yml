@@ -44,10 +44,10 @@ jobs:
         echo "Checking for differences..."
         if ! git diff --staged --quiet; then
         echo "Changes detected, committing..."
-        git commit -m "Auto-update live files"
-        git push
+          git commit -m "Auto-update live files"
+          git push
         else
         echo "No changes detected."
         fi
-        env:
+      env:
         TZ: Asia/Shanghai
