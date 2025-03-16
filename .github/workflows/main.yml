@@ -37,11 +37,17 @@ jobs:
 
     - name: Commit and push if changed
       run: |
+        set -e
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add -A
+        echo "Checking for differences..."
         if ! git diff --staged --quiet; then
-          git commit -m "Auto-update live files"
-          git push
-      env:
+        echo "Changes detected, committing..."
+        git commit -m "Auto-update live files"
+        git push
+        else
+        echo "No changes detected."
+        fi
+        env:
         TZ: Asia/Shanghai
