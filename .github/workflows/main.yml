@@ -49,5 +49,6 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add -A
         if ! git diff --staged --quiet; then
-          git commit -m "Auto-update live files"
-          git push
+            git commit -m "Auto-update live files"
+            git push
+        fi
