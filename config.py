@@ -82,7 +82,7 @@ announcements = [
         "channel": "公告",
         "entries": [
             {"name": "请阅读", "url": "https://liuliuliu.tv/api/channels/1997/stream", "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/SuperMAN.png"},
-            {"name": "yuanzl77.github.io", "url": "https://liuliuliu.tv/api/channels/233/stream", "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/SuperMAN.png"},
+            {"name": "https://alantang.serv00.net/", "url": "https://liuliuliu.tv/api/channels/233/stream", "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/SuperMAN.png"},
             {"name": "更新日期", "url": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/Robot.mp4", "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/SuperMAN.png"},
             {"name": None, "url": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/Robot.mp4", "logo": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/SuperMAN.png"}
         ]
