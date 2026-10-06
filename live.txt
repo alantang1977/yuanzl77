@@ -2,7 +2,7 @@
 请阅读,https://liuliuliu.tv/api/channels/1997/stream
 https://alantang.serv00.net/,https://liuliuliu.tv/api/channels/233/stream
 更新日期,https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/Robot.mp4
-2026-10-05,https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/Robot.mp4
+2026-10-06,https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/X/main/Pictures/Robot.mp4
 央视频道,#genre#
 CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8$LR•IPV4『线路1』
 CCTV1,http://101.66.194.125:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路2』
